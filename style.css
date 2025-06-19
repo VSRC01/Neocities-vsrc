@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Reset some default weirdness */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;;
+}
+
+/* Layout wrapper */
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #000;
+  color: #eee;
+  padding: 1em;
+}
+
+/* Left sidebar */
+.sidebar {
+  width: 110px;
+  height:220px;
+  background-color: #222;
+  padding: 2em;
+  border-radius: 6px;
+  position: sticky;
+  top: 1em;
+
+}
+
+.sidebar h2 {
+  margin-bottom: 1em;
+  color: #999;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.5em 0;
+  color: #999;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #fff;
+}
+
+/* Right content area */
+.content {
+  padding: 2em;
+  width: 66%;
+  background-color: #111;
+  border-radius: 6px;
+}
+
+.content h1 {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.content p {
+  text-align: auto;
+  margin-bottom: 0.5em;
+}
+
+.spacer {
+  width: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+
+}
+
+.image-container {
+  display: flex;
+  background-color: #689;
+  border-radius: 6px;
+  height: 18%;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  align-content: center;
+}
