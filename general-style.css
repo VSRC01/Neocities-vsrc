@@ -110,3 +110,53 @@ img:hover {
   margin-bottom: 1.5em;
   align-content: center;
 }
+
+.terminal {
+  background: #111;
+  color: #0f0;
+  font-family: monospace;
+  padding: 1em;
+  display: flex;
+  align-content: center;
+  justify-content: center; 
+}
+
+.mainframe_header {
+  color: #0f0;
+}
+
+.cursor {
+  color: #0f0;
+  display: inline-block;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* opcional: glitch effect */
+.terminal span.glitch {
+  position: relative;
+  display: inline-block;
+  color: #0f0;
+}
+
+.terminal span.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: #0f0;
+  animation: glitch 0.3s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0,0); }
+  20% { transform: translate(-1px,1px); }
+  40% { transform: translate(1px,-1px); }
+  60% { transform: translate(-1px,0); }
+  80% { transform: translate(1px,1px); }
+  100% { transform: translate(0,0); }
+}
