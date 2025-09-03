@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+h1, h2, h3 {
+  color: #b4befe;
+  font-family: 'Ubuntu';
+}
+
+p {
+  color: #cdd6f4;
+  font-family: 'Ubuntu';
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu';
+}
+
 .bg {
   border-radius: 25px;
   display: flex;
@@ -14,15 +31,19 @@
   display: flex;
   background: #181825;
   border-radius: 25px;
-  padding-left: 3em;
+  padding-left: 1.5em;
 }
 
 .spacer {
-  padding: 1.5em;
+  padding: 0.5em;
 }
 
 .nav_container {
   padding-top: 3em;
+  padding-left: 0;
+  justify-content: center;
+  text-align: center;
+  min-width: 20%;
 }
 
 .main_container {
@@ -35,34 +56,45 @@
 
 .button_container {
   display: flex;
-  height: 15vh;
+  height: 20vh;
   writing-mode: vertical-lr;
   text-orientation: sideways;
   transform: rotate(180deg);
   justify-content: space-evenly;
 }
 
-h1, h2, h3 {
-  color: #b4befe;
-  font-family: 'Ubuntu';
+.text_container {
+  overflow: auto;
 }
 
-p {
-  color: #cdd6f4;
+.button_container a {
   font-family: 'Ubuntu';
-}
-
-button {
   background: #313244;
   border: none;
   border-radius: 0px 6px 6px 0px;
   cursor:pointer;
   color: #a6adc8;
   padding: 0.5em;
+  text-decoration: none;
 
 }
 
-button:hover {
+.button_container a:hover {
   background: #cba6f7;
   color: #1e1e2e;
+}
+
+.bxl {
+  color: #cba6f7;
+}
+
+.kutter_link {
+  font-size:xx-large;
+  font-family: bold;
+  text-decoration: none;
+  color: #cba6f7;
+}
+
+.linkedin {
+  color:#cdd6f4;
 }
