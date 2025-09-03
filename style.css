@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.bg {
+  border-radius: 25px;
+  display: flex;
+  background: #11111b;
+  min-height: 90vh;
+  justify-content: center;
+  align-content: center;
+  padding: 3em;
+}
+
+.nav_bg {
+  display: flex;
+  background: #181825;
+  border-radius: 25px;
+  padding-left: 3em;
+}
+
+.spacer {
+  padding: 1.5em;
+}
+
+.nav_container {
+  padding-top: 3em;
+}
+
+.main_container {
+  display: flex;
+  background: #1e1e2e;
+  border-radius: 25px;
+  padding-left: 3em;
+  padding-top: 3em;
+}
+
+.button_container {
+  display: flex;
+  height: 15vh;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+  justify-content: space-evenly;
+}
+
+h1, h2, h3 {
+  color: #b4befe;
+  font-family: 'Ubuntu';
+}
+
+p {
+  color: #cdd6f4;
+  font-family: 'Ubuntu';
+}
+
+button {
+  background: #313244;
+  border: none;
+  border-radius: 0px 6px 6px 0px;
+  cursor:pointer;
+  color: #a6adc8;
+  padding: 0.5em;
+
+}
+
+button:hover {
+  background: #cba6f7;
+  color: #1e1e2e;
+}
