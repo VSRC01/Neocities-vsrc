@@ -1,186 +1,208 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
 
 .dark {
-  --lavander: #cba6f7;
-  --text: #cdd6f4;
-  --crust: #11111b;
-  --mantle: #181825;
-  --base: #1e1e2e;
-  --mauve: #cba6f7 ;
-  --surface0: #313244;
-  --subtext0: #a6adc8;
+    --lavander: #cba6f7;
+    --text: #cdd6f4;
+    --crust: #11111b;
+    --mantle: #181825;
+    --base: #1e1e2e;
+    --mauve: #cba6f7;
+    --surface0: #313244;
+    --subtext0: #a6adc8;
 }
 
 .light {
-  --lavander: #8839ef ;
-  --text: #4c4f69;
-  --crust: #dce0e8;
-  --mantle: #e6e9ef;
-  --base: #eff1f5;
-  --mauve: #8839ef;
-  --surface0: #ccd0da;
-  --subtext0: #6c6f85;
+    --lavander: #8839ef;
+    --text: #4c4f69;
+    --crust: #dce0e8;
+    --mantle: #e6e9ef;
+    --base: #eff1f5;
+    --mauve: #8839ef;
+    --surface0: #ccd0da;
+    --subtext0: #6c6f85;
 }
 
-h1, h2, h3 {
-  color: var(--lavander);
-  font-family: 'Ubuntu';
+h1,
+h2,
+h3 {
+    color: var(--lavander);
+    font-family: "Ubuntu";
 }
 
 p {
-  color: var(--text);
-  font-family: 'Ubuntu';
+    color: var(--text);
+    font-family: "Ubuntu";
 }
 
-ul{
-  list-style: none;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+}
+
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu';
+  overflow: clip;
 }
 
-.nav_list li{
-  color: var(--text);
-  padding: 0.5em;
-  width: fit-content;
+.nav_list li {
+    color: var(--text);
+    padding: 0.5em;
+    width: fit-content;
 }
 
 .nav_list {
-  padding-left: 30%;
+    padding-left: 30%;
 }
 
 .bg {
-  border-radius: 25px;
-  display: flex;
-  background: var(--crust);
-  min-height: 90vh;
-  justify-content: center;
-  align-content: center;
-  padding: 3em;
+    border-radius: 25px;
+    display: flex;
+    background: var(--crust);
+    justify-content: center;
+    align-content: center;
+    padding: 3em;
+    height: 100vh;
+    width: 100vw;
 }
 
 .nav_bg {
-  display: flex;
-  width:60em;
-  background: var(--mantle);
-  border-radius: 25px;
-  padding-left: 1.5em;
+    display: flex;
+    background: var(--mantle);
+    border-radius: 25px;
+    padding-left: 1.5em;
+    justify-content: center;
+    height: 90vh;
+    width: 50vw;
 }
 
 .spacer {
-  padding: 0.5em;
+    padding: 0.5em;
 }
 
 .nav_container {
-  padding-top: 3em;
-  padding-left: 0;
-  text-align: center;
-  min-width: 20%;
+    padding-top: 3em;
+    padding-left: 0;
+    text-align: center;
+    overflow: scroll;
+    width: 14vw;
 }
 
 .titulo_line {
-  display: flex;
-  align-items: baseline;
+    display: flex;
+    align-items: baseline;
 }
 
 .titulo_line .text_line {
-  flex: 1;
-  height: 2px;
-  background: var(--lavander);
+    flex: 1;
+    height: 2px;
+    background: var(--lavander);
 }
 
 .div_line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5em;
 }
 
 .div_line .line {
-  flex: .45;
-  height: 2px;
-  background: var(--lavander);
-
+    flex: 0.45;
+    height: 2px;
+    background: var(--lavander);
 }
 
 .main_container {
-  display: flex;
-  background: var(--base);
-  border-radius: 25px;
-  padding-left: 3em;
-  padding-top: 3em;
-  width: 100%;
+    display: flex;
+    background: var(--base);
+    border-radius: 25px;
+    padding-left: 3em;
+    padding-top: 3em;
+    width: 36vw;
 }
 
 .button_container {
-  display: flex;
-  height: 10em;
-  writing-mode: vertical-lr;
-  text-orientation: sideways;
-  transform: rotate(180deg);
-  justify-content: space-evenly;
+    display: flex;
+    height: 10em;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    justify-content: space-evenly;
 }
 
 .text_container {
-  overflow: scroll;
-  height: 80vh;
-  width: 100%;
+    overflow: scroll;
+    height: 80vh;
 }
 
 .button_container a {
-  font-family: 'Ubuntu';
-  background: var(--surface0);
-  border: none;
-  border-radius: 0px 6px 6px 0px;
-  cursor:pointer;
-  color: var(--subtext0);
-  padding: 0.5em;
-  text-decoration: none;
-
+    font-family: "Ubuntu";
+    background: var(--surface0);
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+    color: var(--subtext0);
+    padding: 0.5em;
+    text-decoration: none;
 }
 
 .button_container a:hover {
-  background: var(--mauve);
-  color: var(--base);
+    background: var(--mauve);
+    color: var(--base);
 }
 
 .bxl {
-  color: var(--mauve);
+    color: var(--mauve);
 }
 
 .kutter_link {
-  font-size:xx-large;
-  font-family: bold;
-  text-decoration: none;
-  color: var(--mauve);
+    font-size: xx-large;
+    font-family: bold;
+    text-decoration: none;
+    color: var(--mauve);
 }
 
 .linkedin {
-  color: var(--text);
+    color: var(--text);
 }
 
 .nav_link {
-  text-decoration: none;
-  color: var(--text); 
+    text-decoration: none;
+    color: var(--text);
 }
 
 .nav_link:hover {
-  color: var(--mauve);
+    color: var(--mauve);
 }
 
 .next_page {
-  background: var(--surface0);
-  border-radius: 6px;
-  text-align: center;
-  padding: 1em;
-  margin-top: 1em;
+    background: var(--surface0);
+    border-radius: 6px;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
 }
 
 .sublist li {
-  list-style: disc;
-  width: fit-content;
+    list-style: disc;
+    width: fit-content;
 }
 
 .sublist {
-  padding-left: 1em;
+    padding-left: 1em;
+}
+
+.image_container_hscroll {
+    display: flex;
+    overflow: scroll;
+}
+
+.image_container_hscroll img {
+    height: 20vh;
+    width: auto;
+    border-radius: 6px;
+    margin-right: 1em;
 }
