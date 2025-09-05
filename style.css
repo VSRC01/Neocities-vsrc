@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .dark {
-  --lavander: #b4befe;
+  --lavander: #cba6f7;
   --text: #cdd6f4;
   --crust: #11111b;
   --mantle: #181825;
   --base: #1e1e2e;
-  --mauve: #cba6f7;
+  --mauve: #cba6f7 ;
   --surface0: #313244;
   --subtext0: #a6adc8;
 }
 
 .light {
-  --lavander: #7287fd;
+  --lavander: #8839ef ;
   --text: #4c4f69;
   --crust: #dce0e8;
   --mantle: #e6e9ef;
@@ -40,9 +40,13 @@ ul{
 }
 
 .nav_list li{
-  list-style: circle;
   color: var(--text);
   padding: 0.5em;
+  width: fit-content;
+}
+
+.nav_list {
+  padding-left: 30%;
 }
 
 .bg {
@@ -162,4 +166,21 @@ ul{
 
 .nav_link:hover {
   color: var(--mauve);
+}
+
+.next_page {
+  background: var(--surface0);
+  border-radius: 6px;
+  text-align: center;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.sublist li {
+  list-style: disc;
+  width: fit-content;
+}
+
+.sublist {
+  padding-left: 1em;
 }
