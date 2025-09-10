@@ -48,6 +48,12 @@ body {
   overflow: clip;
 }
 
+img {
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+}
+
 .nav_list li {
     color: var(--text);
     padding: 0.5em;
