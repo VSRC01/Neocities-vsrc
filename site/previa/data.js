@@ -30,9 +30,9 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.12404941096116318,
-          "pitch": 0.44134845257617883,
-          "rotation": 0,
+          "yaw": 0.1270396610465987,
+          "pitch": 0.44560136985780474,
+          "rotation": 15.707963267948973,
           "target": "1-salacopa"
         }
       ],
@@ -68,35 +68,35 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.186320588081779,
-          "pitch": -0.05146541005010796,
-          "rotation": 0,
+          "yaw": -2.1955208156786608,
+          "pitch": -0.006785469559654089,
+          "rotation": 18.84955592153877,
           "target": "0-cozinha"
         },
         {
-          "yaw": 0.050716205736602404,
-          "pitch": 0.04431288192194138,
+          "yaw": 0.049448306361107086,
+          "pitch": 0.07298285045106567,
           "rotation": 0,
-          "target": "2-quartosolteiro"
+          "target": "2-quarto"
         },
         {
-          "yaw": -0.2423241111483776,
-          "pitch": 0.05194284254805481,
-          "rotation": 0,
-          "target": "3-quartocasal"
-        },
-        {
-          "yaw": 0.28812017814968094,
-          "pitch": 0.05000571257646236,
-          "rotation": 0,
+          "yaw": 0.25031547488011974,
+          "pitch": 0.09878021073261856,
+          "rotation": 7.853981633974483,
           "target": "4-banheiro"
+        },
+        {
+          "yaw": -0.18713921225934804,
+          "pitch": 0.09426581952277857,
+          "rotation": 4.71238898038469,
+          "target": "3-quarto"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-quartosolteiro",
-      "name": "QuartoSolteiro",
+      "id": "2-quarto",
+      "name": "Quarto",
       "levels": [
         {
           "tileSize": 256,
@@ -124,23 +124,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.916608769857902,
-          "pitch": -0.014047660422065178,
-          "rotation": 0,
-          "target": "3-quartocasal"
-        },
-        {
-          "yaw": 3.0517687081896376,
-          "pitch": 0.34117161189264245,
-          "rotation": 0,
+          "yaw": 3.064114041529967,
+          "pitch": 0.39546802268729486,
+          "rotation": 12.566370614359176,
           "target": "1-salacopa"
+        },
+        {
+          "yaw": -2.94031474518491,
+          "pitch": 0.027176696988721716,
+          "rotation": 1.5707963267948966,
+          "target": "3-quarto"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-quartocasal",
-      "name": "QuartoCasal",
+      "id": "3-quarto",
+      "name": "Quarto",
       "levels": [
         {
           "tileSize": 256,
@@ -168,8 +168,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.4911931350371628,
-          "pitch": 0.3386996223875389,
+          "yaw": 2.4690811563989348,
+          "pitch": 0.3761089530010473,
           "rotation": 0,
           "target": "1-salacopa"
         }
@@ -206,21 +206,21 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.0339938366043393,
-          "pitch": 0.031601950466733086,
+          "yaw": 1.6111084024424045,
+          "pitch": 0.03401799328353938,
           "rotation": 0,
-          "target": "2-quartosolteiro"
+          "target": "3-quarto"
         },
         {
-          "yaw": 1.5692803279934529,
-          "pitch": 0.039882032472084106,
-          "rotation": 0,
-          "target": "3-quartocasal"
+          "yaw": 1.984313203677483,
+          "pitch": 0.043530302125635245,
+          "rotation": 1.5707963267948966,
+          "target": "2-quarto"
         },
         {
-          "yaw": 1.6563916787530975,
-          "pitch": 0.6764598524327905,
-          "rotation": 0,
+          "yaw": 1.5417202682825248,
+          "pitch": 0.612510443899529,
+          "rotation": 4.71238898038469,
           "target": "1-salacopa"
         }
       ],
